@@ -1,60 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Need for Speed</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <nav>
-        <span class="navItems" onclick="navTo('s1')">
-            <img src="../assets/icons/home.png" alt="Jogo" width="30px">
-            <a class="navWords" >Jogo</a>
-        </span>
-         <span class="navItems" onclick="navTo('s2')">
-            <img src="../assets/icons/box.png" alt="Carros"  width="30px">
-            <a class="navWords" >Carros</a>
-        </span>
-         <span class="navItems" onclick="navTo('s3')">
-            <img src="../assets/icons/video.png" alt="Vídeo"  width="30px">
-            <a class="navWords" >Vídeo</a>
-        </span>
-         <span class="navItems" onclick="navTo('s4')">
-            <img src="../assets/icons/mobile.png" alt="Contato"  width="30px">
-            <a class="navWords" >Contato</a>
-        </span>
+      <span class="navItems" onclick="navTo('s1')">
+        <img src="../assets/icons/home.png" alt="Jogo" width="30px" />
+        <a class="navWords">Jogo</a>
+      </span>
+      <span class="navItems" onclick="navTo('s2')">
+        <img src="../assets/icons/box.png" alt="Carros" width="30px" />
+        <a class="navWords">Carros</a>
+      </span>
+      <span class="navItems" onclick="navTo('s3')">
+        <img src="../assets/icons/video.png" alt="Vídeo" width="30px" />
+        <a class="navWords">Vídeo</a>
+      </span>
+      <span class="navItems" onclick="navTo('s4')">
+        <img src="../assets/icons/mobile.png" alt="Contato" width="30px" />
+        <a class="navWords">Contato</a>
+      </span>
     </nav>
     <main>
-        <section id="s1">
-           <h1>Need for Speed</h1>
-           <h2>Best racing game of all times.</h2>
-        </section>
-        <section id="s2">
-          
-        </section>
-        <section id="s3">
-            <iframe class="vid" src="https://www.youtube.com/embed/9ewiJJe_nYI?si=QBAFa5Ym9jjekUK2&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </section>
-        <section id="s4">
-           
-        </section>
+      <section id="s1">
+        <h1>Need for Speed</h1>
+        <h2>Best racing game of all times.</h2>
+      </section>
+      <section id="s2">
+        <div class="card">
+          <img width="300px" height="auto" src="../assets/images/01.jpg" alt="nfs1" />
+          <div>
+            <h4>Need for Speed: Underground 2</h4>
+            <p>Traz uma cidade vibrante onde o jogador alterna entre corridas legais durante o dia e disputas ilegais à noite. O sistema de risco e reputação adiciona tensão extra, especialmente quando a polícia entra em cena.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img width="300px" height="auto" src="../assets/images/02.jpg" alt="nfs2" />
+          <div>
+            <h4>Need for Speed: Most Wanted</h4>
+            <p>Um dos jogos mais marcantes da franquia, trazendo corridas de rua, tuning extremo e uma atmosfera urbana cheia de neon. Seu mundo aberto e a liberdade de customização fizeram dele um clássico entre fãs de velocidade</p>
+          </div>
+        </div>
+        <div class="card">
+          <img width="300px" height="auto" src="../assets/images/03.jpg" alt="nfs3" />
+          <div>
+            <h4>Need for Speed Heat</h4>
+            <p>Conhecido pelas perseguições policiais intensas e pela icônica lista Blacklist, ele mistura adrenalina e estratégia em cada corrida. A combinação de carros exóticos, narrativa envolvente e ação constante tornou esse título um dos mais lembrados da série.</p>
+          </div>
+        </div>
+      </section>
+      <section id="s3">
+        <iframe
+          class="vid"
+          src="https://www.youtube.com/embed/9ewiJJe_nYI?si=QBAFa5Ym9jjekUK2&autoplay=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="s4"></section>
     </main>
     <footer>
-            <a href="https://www.facebook.com" target="_blank">
-                <img width="40px" src="../assets/icons/facebook.png" alt="facebook">
-            </a>
-            <a href="https://www.instagram.com" target="_blank">
-                <img width="40px" src="../assets/icons/instagram.png" alt="instagram">
-            </a>
-            <a href="https://www.linkedin.com" target="_blank">
-                <img width="40px" src="../assets/icons/linkedin.png" alt="linkedin">
-            </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <img width="40px" src="../assets/icons/facebook.png" alt="facebook" />
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <img width="40px" src="../assets/icons/instagram.png" alt="instagram" />
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <img width="40px" src="../assets/icons/linkedin.png" alt="linkedin" />
+      </a>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
