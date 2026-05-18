@@ -40,3 +40,14 @@ const observer = new IntersectionObserver((entries) => {
 
 observer.observe(document.querySelector('#s2'))
 
+
+function enviar(){
+    const nome = document.getElementById('nome').value 
+    const assunto = document.getElementById('assunto').value 
+    //montar a string (mensagem)
+    const mensagem = `Gostaria de entrar em contato\n\nNome: ${nome}\nAssunto: ${assunto}`
+    //interpretar caracteres especiais e espaços entre palavras
+    const msg = encodeURIComponent(mensagem)
+    window.open(`https://wa.me/5541999999999?text=${msg}`)
+}
+

@@ -162,7 +162,7 @@ footer a img:hover {
     transform: translateY(-5px) scale(1.1) rotate(360deg);
 }
 
-#s3{
+#s3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,7 +173,7 @@ footer a img:hover {
     height: 920px;
 }
 
-#s2{
+#s2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -182,7 +182,7 @@ footer a img:hover {
     min-height: 70vh;
 }
 
-.card{
+.card {
     width: 300px;
     height: auto;
     display: flex;
@@ -194,11 +194,103 @@ footer a img:hover {
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.card.visible{
+.card.visible {
     opacity: 1;
     transform: translateY(0);
 }
 
+#s4 {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: -8vh;
+    padding: 100px;
+}
+
+.formulario {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #051723;
+    margin-bottom: 8vh;
+}
+
+.formulario label {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: -35px;
+    font-size: 18px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--text);
+    background-color: transparent;
+    color: var(--text);
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 3px 10px #051723;
+}
+
+/* input::placeholder{
+    
+}
+
+textarea::placeholder{
+
+} */
+
+.formulario textarea {
+    max-width: 100%;
+    width: 255px;
+    min-width: 255px;
+    padding: 10px;
+    border: 2px solid var(--text);
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--text);
+    font-size: 16px;
+    box-shadow: 0px 3px 10px #051723;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--text);
+    color: #051723;
+    border: none;
+    border: 2px solid var(--bg);
+    border-radius: 5px;
+    font-size: 18px;
+    font-size: 600;
+    transition: all 200ms ease-in-out;
+}
+
+.formulario button:hover {
+    cursor: pointer;
+    box-shadow: 0px 3px 10px #051723;
+    background-color: transparent;
+    color: var(--text);
+    border: 2px solid var(--text);
+}
+
+#saturno-container {
+    width: 700px;
+    height: 500px;
+    cursor: grab;
+    overflow: hidden;
+}
 
 
 
@@ -228,5 +320,10 @@ footer a img:hover {
         width: 100%;
         height: 412px;
     }
+
+    #saturno-container {
+        display: none;
+    }
+
 
 }
